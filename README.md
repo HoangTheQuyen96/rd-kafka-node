@@ -6,14 +6,14 @@ A wrapper library of [node-rdkafka](https://github.com/Blizzard/node-rdkafka) wi
 
 > Important: We are using `node-rdkafka 2.10.1`
 
-`npm install @kafka/node-kafka-client`
+`npm install @finviet-promotion/rd-kafka-node`
 
 ## Usage
 
 ### Consumer
 
 ```js
-const { Consumer } = require("@kafka/node-kafka-client");
+const { Consumer } = require("@finviet-promotion/rd-kafka-node");
 
 const consumer = new Consumer({
   // Required options
@@ -86,9 +86,9 @@ consumer.on("event.log", console.log);
 
 [will be updated]
 
-## Contributors
 
-- [Alex Co](https://github.com/onimsha)
+## Based on the code base of developers:
+- [Alex Co](https://github.com/alexco)
 - [Duy Quach](https://github.com/quachduyy)
 - [Phu Nguyen](https://github.com/phunguyen19)
 - [Cuong Nguyen](https://github.com/CuongNgMan)
